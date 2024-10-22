@@ -1,0 +1,32 @@
+Sample Inputs
+navigate to 
+http://127.0.0.1:8000/docs
+
+Do the test on the /predictflower endpoint
+
+Input 1
+{
+  "sepalLength": 5,
+  "sepalWidth": 2.9,
+  "petalLength": 1,
+  "petalWidth": 0.2
+}
+
+Expected Value 
+
+{
+  "flower": "setosa"
+}
+
+Input 2
+{
+  "sepalLength": 6,
+  "sepalWidth": 2.9,
+  "petalLength": 4.5,
+  "petalWidth": 1.5
+}
+
+Expected Value
+{
+  "flower": "versicolor"
+}
