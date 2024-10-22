@@ -25,8 +25,11 @@ irisClassificationModelFile  = open("models/iris_classification_model.pickle", "
 # load it only once for the  instance and keep in memory
 irisModel = pickle.load(irisClassificationModelFile)
 
-# hardcoding for now TODO load from a JSON file
-irisModelFlowerLabels = ["setosa", "versicolor", "virginica"]
+# loading from model labels
+# irisModelFlowerLabels = ["setosa", "versicolor", "virginica"]
+irisModelFlowerLabelFile = open("models/iris_classification_label.pickle", "rb") 
+
+irisModelFlowerLabels = pickle.load(irisModelFlowerLabelFile)
 
 
 
