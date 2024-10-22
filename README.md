@@ -16,3 +16,7 @@ use command
 
 to get the version
 
+
+to create the source bundle
+`git archive -v -o deployments/irisappv1.zip --format=zip HEAD`
+
