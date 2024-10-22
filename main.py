@@ -31,7 +31,7 @@ irisModelFlowerLabels = ["setosa", "versicolor", "virginica"]
 
 
 @app.get("/")
-def read_root():
+def readRoot():
     logger.debug("Root request served")
     return {"status": "The service is setup and running"}
 
