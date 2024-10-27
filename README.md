@@ -20,3 +20,8 @@ to get the version
 to create the source bundle
 `git archive -v -o deployments/irisappv1.zip --format=zip HEAD`
 
+for deployment in AWS beanstock
+`pip3 install uvicorn-worker`
+
+
+
