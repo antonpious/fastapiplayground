@@ -23,5 +23,10 @@ to create the source bundle
 for deployment in AWS beanstock
 `pip3 install uvicorn-worker`
 
+Add a Procfile
+Since AWS uses Gunicorn, or Green Unicorn this file is needed to say  gunicorn what server to use.
+
+`web: gunicorn main:app --workers=4 -k uvicorn.workers.UvicornWorker`
+
 
 
